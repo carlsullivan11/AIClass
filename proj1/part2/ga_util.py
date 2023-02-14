@@ -26,4 +26,4 @@ def binary(num):
 
 
 def schedule(t):
-    return (1000000/t) - 1
+    return (1 - (t/1000000))

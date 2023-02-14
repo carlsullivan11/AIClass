@@ -232,7 +232,7 @@ to be used only internally.
 
     # From https://matplotlib.org/examples/mplot3d/surface3d_demo.html
     fig = plt.figure()
-    ax = fig.gca()
+    ax = fig.gca(projection='3d')
     ax.text2D(0.05, 0.95, title, transform=ax.transAxes)
     surf = ax.plot_surface(X, Y, Z, cmap=cm.coolwarm, linewidth=0, antialiased=False)
     ax.set_zlim(np.min(Z), np.max(Z))
