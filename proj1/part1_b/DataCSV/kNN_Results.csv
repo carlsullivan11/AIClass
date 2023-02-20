@@ -1,0 +1,7 @@
+Data File,k Value,Test_acc_all,Test_acc_error,Train_acc_all,Train_acc_error
+Labeled Data,3,89,88,96,89
+Labeled Data,5,88,88,95,86
+Diabetes (Age vs DPF),3,60,54,61,45
+Diabetes (Age vs BMI),3,58,54,63,47
+Diabetes (Age vs DPF),5,44,42,62,37
+Diabetes (Age vs BMI),5,46,46,63,44
